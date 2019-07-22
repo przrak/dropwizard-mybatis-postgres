@@ -1,0 +1,10 @@
+logging:
+  level: INFO
+  loggers:
+    com.udemy: DEBUG
+
+database:
+  driverClass: org.postgresql.Driver
+  user: user
+  password: password
+  url: jdbc:postgresql://localhost:5432/DropBookmarks
